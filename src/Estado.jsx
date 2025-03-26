@@ -1,4 +1,4 @@
-import { userState } from "react";
+import { useState } from "react";
 function Estado() {
   const [Numero, setNumero] = useState(0);
 

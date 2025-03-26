@@ -27,11 +27,7 @@ function App() {
       <h1>Hola</h1>
       <Otro />
       <Comp3 />
-      <Estado />
-      <String />
-      <Booleano />
-      <Objeto />
-      <Clase />
+
       <div>
         <h1>Contador: {count}</h1> {/* Mostramos el valor del contador */}
         <button onClick={increment}>Incrementar</button>{" "}

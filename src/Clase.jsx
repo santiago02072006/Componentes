@@ -9,6 +9,6 @@ function Clase(){
     return (
         <button onClick={cambiarColor}>Cambiar Color</button>
     );
-}
+}z
 
 export default Clase;

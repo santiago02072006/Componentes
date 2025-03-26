@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Lista from "./lista";
+
 
 function Objeto(){
     const [usuario, setUsuario] = useState ({

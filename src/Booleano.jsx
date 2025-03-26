@@ -13,4 +13,15 @@ function Booleano() {
     colorTexto = "red";
     mensaje = "El booleano es Falso";
   }
+   
+  return (
+    <div>
+      <h3 style={{ color: colorTexto }}>{mensaje}</h3>
+      <button onClick={() => setbooleano(!booleano)}>
+        Cambiar booleano
+      </button>
+    </div>
+  );
 }
+
+export default Booleano;
