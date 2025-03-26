@@ -3,11 +3,12 @@ import { useState } from "react";
 import "./App.css";
 import Otro from "./Otro";
 import Comp3 from "./Comp3";
-import Estado from './Estado'
-import String from './String'
-import Booleano from './Booleano'
-import Objeto from './Objeto'
-import Clase from './Clase'
+import Estado from "./Estado";
+import String from "./String";
+import Lista from "./lista";
+import Objeto from "./Objeto";
+import Clase from "./Clase";
+
 
 function App() {
   const [count, setCount] = useState(0);
@@ -27,6 +28,12 @@ function App() {
       <h1>Hola</h1>
       <Otro />
       <Comp3 />
+      <Estado />
+      <String />
+      <Lista />
+      <Objeto />
+      <Clase />
+
 
       <div>
         <h1>Contador: {count}</h1> {/* Mostramos el valor del contador */}

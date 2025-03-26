@@ -1,14 +1,18 @@
-import { useState } from "react";
+import React from "react";
 
-function Clase(){
+function Clase() {
+    
+    console.log("Renderizando Clase.jsx");
 
-    function cambiarColor(){
-        document.body.classList.toggle("rojo");
-    }
+  function cambiarColor() {
+    document.body.classList.toggle("rojo");
+  }
 
-    return (
-        <button onClick={cambiarColor}>Cambiar Color</button>
-    );
-}z
+  return (
+    <div>
+      <button onClick={cambiarColor}>Cambiar Color</button>
+    </div>
+  );
+}
 
 export default Clase;
