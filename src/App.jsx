@@ -8,6 +8,7 @@ import String from "./String";
 import Lista from "./lista";
 import Objeto from "./Objeto";
 import Clase from "./Clase";
+import Booleano from "./Booleano";
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
     <div>
       <h1>Hola</h1>
       <Otro />
+      <Booleano/>
       <Comp3 />
       <Estado />
       <String />
